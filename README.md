@@ -1,4 +1,3 @@
-Certainly! Here's a sample GitHub README for your non-league football app:
 
 ---
 
