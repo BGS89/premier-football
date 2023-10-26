@@ -66,7 +66,7 @@ function App() {
           setArticlesLoading(false);
         });
 
-        setLoading(false); // Set loading state to false after data is fetched
+        setLoading(false);
       })
       .catch((error) => {
         console.log(error);
