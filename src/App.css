@@ -260,6 +260,7 @@ thead {
 @media (min-width: 1400px) {
   .single-article {
     display: grid;
+    gap: 10px;
     grid-template-columns: 1fr 1fr;
   }
   .single-article .header {
@@ -267,10 +268,17 @@ thead {
   }
   .single-article img {
     grid-column-start: 1;
+    grid-row: 2 / 3;
     margin-top: 10px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
   }
   .article-body {
     padding: 10px;
+  }
+  .carousel {
+    grid-column-start: 2;
   }
 }
 

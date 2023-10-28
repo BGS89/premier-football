@@ -33,9 +33,9 @@ export function SingleArticle({ newsArticles }) {
         <div className="article-body">
           <h4>Wriiten by {article.author}</h4>
           <p>{article.body}</p>
+          <NewsCarousel newsArticles={newsArticles} articleId={article_id} />
         </div>
       </main>
-      <NewsCarousel newsArticles={newsArticles} articleId={article_id} />
     </Container>
   );
 }
