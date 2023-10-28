@@ -6,7 +6,7 @@ export function Navbar() {
     <NavbarBs className="shadow-sm mb-3 custom-navbar-bg">
       <Container>
         <Nav className="me-auto">
-          <img id="logo" src="../public/logo.png"></img>
+          <img id="logo" src="../logo.png"></img>
           <Nav.Link to={"/"} as={NavLink}>
             <span>Home</span>
           </Nav.Link>
